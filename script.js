@@ -1,6 +1,6 @@
 // ====== KONFIGURASI ======
-const API_URL = "https://script.google.com/macros/s/GANTI_DENGAN_ID_DEPLOY/exec";
-const TOKEN   = "GANTI_TOKEN_RAHASIA";          // harus sama dengan di Code.gs & ESP8266
+const API_URL = "https://script.google.com/macros/s/AKfycby5JO1VspysQ81xcenRLIEudTdl9JxYA5gwfDRJoaZfv44BgqNtp8CPWka7pGzJaUw/exec";
+const TOKEN   = "123";          // harus sama dengan di Code.gs & ESP8266
 const CHANNELS = [{ id: 1, name: "Relay 1" }, { id: 2, name: "Relay 2" }];
 const POLL_MS = 3000;
 const ONLINE_WINDOW_S = 15;                     // dianggap online bila ESP terlihat < 15 detik lalu
