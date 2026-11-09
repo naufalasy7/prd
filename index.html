@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Panel Relay ESP8266</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="panel">
+    <header>
+      <h1>Panel Relay</h1>
+      <div id="status" class="status offline"><span class="dot"></span><span id="statusText">Memeriksa…</span></div>
+    </header>
+
+    <section class="channels" id="channels"></section>
+
+    <p id="msg" class="msg" role="status"></p>
+    <footer>Perangkat membaca perintah tiap ±3 detik, jadi relay bisa terlambat beberapa detik.</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
