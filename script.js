@@ -1,5 +1,5 @@
 // ====== ISI INI SAJA ======
-const API_URL = "https://script.google.com/macros/s/GANTI_DENGAN_ID_DEPLOY/exec";
+const API_URL = "https://script.google.com/macros/s/AKfycbyLe15wFFBUGgC9iibOtHgSUF0iUk_-OcxihI7Fik84N1VENBaKiqsonJyYL9zV9gZR/exec";
 // ==========================
 const CHANNELS = [{ id: 1, name: "Relay 1" }, { id: 2, name: "Relay 2" }];
 const $channels = document.getElementById("channels");
